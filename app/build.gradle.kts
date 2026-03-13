@@ -11,6 +11,9 @@ val localMockResRoot = layout.buildDirectory.dir("generated/res/localMock")
 val localMockDrawableDir = layout.buildDirectory.dir("generated/res/localMock/drawable")
 
 val syncLocalMockImages by tasks.registering(Copy::class) {
+    doFirst {
+        delete(localMockResRoot)
+    }
     from(rootProject.file("image"))
     include("*.png", "*.jpg", "*.jpeg", "*.webp")
     into(localMockDrawableDir)
@@ -31,8 +34,8 @@ android {
         applicationId = "com.megaclaw"
         minSdk = 33
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
