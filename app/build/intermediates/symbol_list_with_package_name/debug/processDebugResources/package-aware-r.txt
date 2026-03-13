@@ -86,11 +86,10 @@ drawable ic_call_decline_low
 drawable ic_custom_back
 drawable ic_launcher_foreground
 drawable ic_megaclaw
-drawable local_mock_1
-drawable local_mock_2
-drawable local_mock_3
-drawable local_mock_4
-drawable local_mock_5
+drawable local_mock_11
+drawable local_mock_22
+drawable local_mock_33
+drawable local_mock_44
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low

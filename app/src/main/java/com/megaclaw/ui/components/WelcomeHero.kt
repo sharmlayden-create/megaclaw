@@ -72,7 +72,7 @@ fun WelcomeHero(modifier: Modifier = Modifier) {
 
         Text(
             text = "Megaclaw",
-            fontSize = 24.sp,
+            fontSize = 30.sp,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.onBackground
         )
@@ -81,7 +81,7 @@ fun WelcomeHero(modifier: Modifier = Modifier) {
 
         Text(
             text = "7x24小时,随时随地召唤的全能AI助手",
-            fontSize = 20.sp,
+            fontSize = 15.sp,
             fontWeight = FontWeight.Normal,
             color = Color(0xFF888888)
         )
