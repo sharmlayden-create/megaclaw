@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+drawable ic_custom_back
+drawable ic_launcher_foreground
+drawable ic_megaclaw
+drawable local_mock_1
+drawable local_mock_2
+drawable local_mock_3
+drawable local_mock_4
+drawable local_mock_5
+drawable thumb_browser
+drawable thumb_email
+drawable thumb_music
+drawable thumb_news
+drawable thumb_notes
+drawable thumb_photos
+drawable thumb_settings
+drawable thumb_wechat
+mipmap ic_launcher
+string app_name
+style Theme.Megaclaw

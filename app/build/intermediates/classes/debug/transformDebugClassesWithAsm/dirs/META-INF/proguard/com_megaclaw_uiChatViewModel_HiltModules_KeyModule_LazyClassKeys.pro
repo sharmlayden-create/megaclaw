@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class com.megaclaw.ui.ChatViewModel
+-keep,allowobfuscation,allowshrinking class com.megaclaw.ui.ChatViewModel

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Simplified crab icon for launcher, scaled to adaptive icon safe zone -->
+    <!-- Main body circle (orange-red) -->
+    <path
+        android:fillColor="#EA6234"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+
+    <!-- Left eye -->
+    <path
+        android:fillColor="#323333"
+        android:pathData="M44,46a5,5.5 0,1 0,10 0a5,5.5 0,1 0,-10 0" />
+
+    <!-- Right eye -->
+    <path
+        android:fillColor="#323333"
+        android:pathData="M58,43a4,4.5 0,1 0,8 0a4,4.5 0,1 0,-8 0" />
+
+    <!-- Left eye highlight -->
+    <path
+        android:fillColor="#F6F4F5"
+        android:pathData="M46,44a2,2 0,1 0,4 0a2,2 0,1 0,-4 0" />
+
+    <!-- Right eye highlight -->
+    <path
+        android:fillColor="#F6F4F5"
+        android:pathData="M60,41a1.5,1.5 0,1 0,3 0a1.5,1.5 0,1 0,-3 0" />
+
+    <!-- Smile / blush -->
+    <path
+        android:fillColor="#FCCAF6"
+        android:pathData="M47,55 Q54,62 61,55 Q54,58 47,55z" />
+
+    <!-- Left claw -->
+    <path
+        android:fillColor="#E64110"
+        android:pathData="M26,52 Q20,48 22,42 Q24,46 28,48z" />
+
+    <!-- Right claw -->
+    <path
+        android:fillColor="#E64110"
+        android:pathData="M82,48 Q86,44 84,38 Q82,42 78,46z" />
+
+    <!-- Left antenna -->
+    <path
+        android:fillColor="#E64110"
+        android:pathData="M42,28 Q38,18 44,16 Q40,20 43,26z" />
+
+    <!-- Right antenna -->
+    <path
+        android:fillColor="#E64110"
+        android:pathData="M62,26 Q68,16 74,20 Q68,18 64,24z" />
+</vector>
